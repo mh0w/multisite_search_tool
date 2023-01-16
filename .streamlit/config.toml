@@ -1,0 +1,45 @@
+[server]
+
+# If false, will attempt to open a browser window on start.
+# Default: false unless (1) we are on a Linux box where DISPLAY is unset, or (2) we are running in the Streamlit Atom plugin.
+headless = true
+
+# The port where the server will listen for browser connections.
+# Default: 8501
+port = 8501
+
+[browser]
+
+# Internet address where users should point their browsers in order to connect to the app. Can be IP address or DNS name and path.
+# This is used to: - Set the correct URL for CORS and XSRF protection purposes. - Show the URL on the terminal - Open the browser
+# Default: 'localhost'
+serverAddress = "localhost"
+
+# Whether to send usage statistics to Streamlit.
+# Default: true
+gatherUsageStats = false
+
+# Port where users should point their browsers in order to connect to the app.
+# This is used to: - Set the correct URL for CORS and XSRF protection purposes. - Show the URL on the terminal - Open the browser
+# Default: whatever value is set in server.port.
+serverPort = 8501
+
+[theme]
+
+# The preset Streamlit theme that your custom theme inherits from. One of "light" or "dark".
+# base =
+
+# Primary accent color for interactive elements.
+# primaryColor =
+
+# Background color for the main content area.
+# backgroundColor =
+
+# Background color used for the sidebar and most interactive widgets.
+# secondaryBackgroundColor =
+
+# Color used for almost all text.
+# textColor =
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+# font =
