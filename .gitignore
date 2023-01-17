@@ -161,3 +161,4 @@ cython_debug/
 
 # Other
 launch_cmd.bat
+run.bat
