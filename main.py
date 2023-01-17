@@ -39,12 +39,16 @@ def create_page():
         "SharePoint": "https://officenationalstatistics.sharepoint.com/_layouts/15/sharepoint.aspx?q=SEARCH_TEXT_HERE&v=search",
         "Best Practice": "https://best-practice-and-impact.github.io/qa-of-code-guidance/search.html?q=SEARCH_TEXT_HERE",
         "StackOverflow": "https://stackoverflow.com/search?q=SEARCH_TEXT_HERE",
+        "Stack Google": "https://google.com/search?q=Stack+SEARCH_TEXT_HERE",
         "Reggie": "https://intranet.ons.statistics.gov.uk/?s=SEARCH_TEXT_HERE",
         "LearningHub courses": "https://learninghub.ons.gov.uk/local/catalogue/index.php?coursename=SEARCH_TEXT_HERE",
         "LearningHub tags": "https://learninghub.ons.gov.uk/local/catalogue/index.php?tags=SEARCH_TEXT_HERE",
         "ONS Wiki": "https://officenationalstatistics.sharepoint.com/sites/onswiki/_layouts/15/search.aspx/siteall?q=SEARCH_TEXT_HERE",
         "ONS website": "https://www.ons.gov.uk/search?q=SEARCH_TEXT_HERE",
         "Yammer": "https://web.yammer.com/main/search/threads?search=SEARCH_TEXT_HERE",
+        "ONS Policies": "https://officenationalstatistics.sharepoint.com/sites/knexPolicies/EmPo/Forms/AllItems.aspx?view=7&q=SEARCH_TEXT_HERE",
+        "DAPCATS Guidance Wiki": "http://np2rvlapxx507/search?search=SEARCH_TEXT_HERE&project_id=1611&scope=wiki_blobs",
+        "DAPCATS IDS Wiki": "http://np2rvlapxx507/search?search=SEARCH_TEXT_HERE&project_id=2282&scope=wiki_blobs",
     }
 
     checkboxes = {}
@@ -52,7 +56,7 @@ def create_page():
     for site in sites_list.keys():
         checkboxes[f"{site}"] = st.sidebar.checkbox(
             f"{site}",
-            value=True,
+            value=False,
         )
 
     st.sidebar.write("")
