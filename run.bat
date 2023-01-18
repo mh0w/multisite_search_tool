@@ -2,7 +2,7 @@ echo off
 
 :: USER CONFIGURATION OPTIONS
 :: Choose the Conda environment you want to use (e.g., base, main, my_new_env). Default=base.
-SET "MY_ENVIRONMENT=main"
+SET "MY_ENVIRONMENT=base"
 :: Choose your directory path (the location of this file).
 cd "C:\Users\hawkem\OneDrive - Office for National Statistics\Tools\Search"
 
