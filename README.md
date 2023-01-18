@@ -23,4 +23,6 @@ near the top of the run.bat file.
 the main.py file. Use the same format as the sites already listed. Make sure
 you include http:// or https://. For example, you could add the following line:
 `"Bing": "https://www.bing.com/search?q=SEARCH_TEXT_HERE",`. Notice that
-SEARCH_TEXT_HERE indicates where your search phrase will go.
+SEARCH_TEXT_HERE indicates where your search phrase will go. An easy way to
+prepare a URL in a suitable format is to search SEARCH_TEXT_HERE in the
+search engine you want to add, such as in Bing.
