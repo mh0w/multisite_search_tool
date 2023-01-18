@@ -28,3 +28,5 @@ prepare a URL in a suitable format is to search SEARCH_TEXT_HERE in the
 search engine you want to add, such as in Bing. If you go to
 https://www.bing.com/search?q=SEARCH_TEXT_HERE you will notice that this is
 a Bing search for SEARCH_TEXT_HERE.
+
+![image](https://user-images.githubusercontent.com/82766547/213148208-303de395-7156-4f64-9b6b-7b41578fe4ef.png)
