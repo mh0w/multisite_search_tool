@@ -15,8 +15,9 @@ install any missing required packages (using `pip install`) and open the search 
 **OPTIONAL**: you can choose the Conda environment you want to use near the
 top of the run.bat file. 
 
-**OPTIONAL**: you can also declare your directory path here (where you
-have placed the tool on your computer, e.g., C:/desktop/search_tool).
+**OPTIONAL**: you can declare your directory path (where you
+have placed the tool on your computer, e.g., C:/desktop/search_tool)
+near the top of the run.bat file.
 
 **OPTIONAL**: you can add sites to search by adding them to the sites_list list in
 the main.py file. Use the same format as the sites already listed. Make sure
