@@ -22,4 +22,5 @@ near the top of the run.bat file.
 **OPTIONAL**: you can add sites to search by adding them to the sites_list list in
 the main.py file. Use the same format as the sites already listed. Make sure
 you include http:// or https://. For example, you could add the following line:
-`"Bing": "https://www.bing.com/search?q=SEARCH_TEXT_HERE",`
+`"Bing": "https://www.bing.com/search?q=SEARCH_TEXT_HERE",`. Notice that
+SEARCH_TEXT_HERE indicates where your search phrase will go.
