@@ -7,6 +7,9 @@ browser's popup blocker to allow this tool to create popups (new tabs/windows).
 
 You will need to be able to `pip install` any missing required packages.
 
+Open the multisite search tool by running the run.bat file. This will
+install any missing required packages and open the search tool.
+
 
 **OPTIONAL** - user configuration: you can choose the Conda environment you want to use near the
 top of the run.bat file. You can also declare your directory path here (where you
