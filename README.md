@@ -25,4 +25,6 @@ you include http:// or https://. For example, you could add the following line:
 `"Bing": "https://www.bing.com/search?q=SEARCH_TEXT_HERE",`. Notice that
 SEARCH_TEXT_HERE indicates where your search phrase will go. An easy way to
 prepare a URL in a suitable format is to search SEARCH_TEXT_HERE in the
-search engine you want to add, such as in Bing.
+search engine you want to add, such as in Bing. If you go to
+https://www.bing.com/search?q=SEARCH_TEXT_HERE you will notice that this is
+a Bing search for SEARCH_TEXT_HERE.
