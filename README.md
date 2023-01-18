@@ -5,10 +5,11 @@ This tool allows the user to search several sites using one search bar.
 Note that each site opens in a new tab or window, so you may need to tell your
 browser's popup blocker to allow this tool to create popups (new tabs/windows).
 
-You will need to be able to `pip install` any missing required packages.
+You will need to install any missing required packages, such as by running the
+run.bat file if you have pip setup.
 
 Open the multisite search tool by running the run.bat file. This will
-install any missing required packages and open the search tool.
+install any missing required packages (using `pip install`) and open the search tool.
 
 
 **OPTIONAL** - user configuration: you can choose the Conda environment you want to use near the
