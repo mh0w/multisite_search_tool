@@ -71,7 +71,7 @@ def create_page():
         label_visibility="visible",
         placeholder="Enter your search text here. E.g., python merge pandas dataframes",
     )
-    st.write(f"""You're searching for: {search_string}""")
+    st.write(f"""Click 'Search' to search for: {search_string}""")
 
     def search(site):
         js = f"window.open('{site}')"  # New tab or window
@@ -84,6 +84,10 @@ def create_page():
             if checkboxes[f"{key}"] is True:
                 value = value.replace("SEARCH_TEXT_HERE", f"{search_string}")
                 search(f"{value}")
+
+    st.write()
+
+    st.sidebar.write("[GitHub Repo](https://github.com/mh0w/multisite_search_tool)")
 
 
 config_streamlit_page()
